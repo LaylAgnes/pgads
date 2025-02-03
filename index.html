@@ -1,29 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF8">
-    <link rel="stylesheet" href="/ads25/css/style.css">
-    <title>ADS2025</title>
-  </head>
-  <body>
-    <header>
-        <img src="/ads25/img/logodes.png" alt="logo">
-        <h1>ADS - Turma 2025</h1>
-    </header>
-    <section id="links">
-        <h1>Links compartilhados no <a href="https://chat.whatsapp.com/GXrrRY2ElYe6tjMdnYUrEW" target="_blank">grupo alternativo no whatsapp (clique aqui pra entrar)</a></h1>
-        <ul>
-            <li><a href="https://chat.whatsapp.com/DLfzUb3s4BEBo6qjyEm9GC" target=”_blank”>Grupo tira dúvidas</a></li>
-            <li><a href="https://discord.gg/pE5meBvGJa" target=”_blank”>Discord</a></li>
-            <li><a href="https://class.devsamurai.com.br/" target=”_blank”>Cursos DevSamurai</a></li>
-            <li><a href="https://forms.gle/u71c3VeUpezgfJk48" target=”_blank”>Responda o diretório de profissões atuais + LinkedIn</a> -- <a href="https://docs.google.com/spreadsheets/d/1h0JCFT_OGw_9I9T4lblp4bTccHKT48POzoTWkP65Jxo/edit?usp=sharing" target=”_blank”>Respostas</a></li>
-            <li><a href="https://no.descomplica.com.br/knowledge/o-que-%C3%A9-projeto-de-extens%C3%A3o" target=”_blank”>Saiba mais sobre o PEX - Projeto de Extensão</a></li>
-            <li><a href="https://www.khanacademy.org/computing/computers-and-internet" target=”_blank”>Khan Academy - Computers and the Internet</a></li>
-            <li><a href="https://github.com/FaculdadeDescomplica" target=”_blank”>Git da faculdade - escolha o repositório que precisa</a></li>
-            <li><a href="/ads25/files/AquecimentoCalourada.rar" target=”_blank”>Resumo das duas primeiras lives do "Aquecimento Calourada" feito pelo colega</a> <a href="https://www.linkedin.com/in/victormenezes7" target=”_blank”>Victor Menezes</a></li>
-            <li><a href="https://no.descomplica.com.br/central_de_felicidade_gradua">Abertura de tickets Descomplica</a></li>
-            <li><a href="#">Livros - Em breve!</a></li>
-      </ul>
-    </section>
-  </body>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  <title>ADS2025</title>
+</head>
+
+<body>
+  <header>
+    <img src="./img/logodes.png" alt="logo">
+    <h1>ADS - Turma 2025</h1>
+  </header>
+  <section id="links">
+    <h1>Links compartilhados no <a href="https://chat.whatsapp.com/GXrrRY2ElYe6tjMdnYUrEW" target="_blank">grupo
+        alternativo no whatsapp (clique aqui pra entrar)</a></h1>
+    <div class="cards-container">
+      <div class="card">
+        <a href="https://chat.whatsapp.com/DLfzUb3s4BEBo6qjyEm9GC" target="_blank">Grupo tira dúvidas</a>
+      </div>
+      <div class="card">
+        <a href="https://discord.gg/pE5meBvGJa" target="_blank">Discord</a>
+      </div>
+
+      <div class="card">
+        <a href="https://class.devsamurai.com.br/" target="_blank">Cursos DevSamurai</a>
+      </div>
+      <div class="card">
+        <a href="https://forms.gle/u71c3VeUpezgfJk48" target="_blank">Formulário profissões atuais <br> e LinkedIn</a>
+      </div>
+      <div class="card">
+        <a href="https://docs.google.com/spreadsheets/d/1h0JCFT_OGw_9I9T4lblp4bTccHKT48POzoTWkP65Jxo/edit?usp=sharing"
+          target="_blank">Linkedin dos Integrantes do grupo</a>
+      </div>
+      <div class="card">
+        <a href="https://no.descomplica.com.br/knowledge/o-que-%C3%A9-projeto-de-extens%C3%A3o" target="_blank">Saiba
+          mais sobre o PEX - Projeto de Extensão</a>
+      </div>
+      <div class="card">
+        <a href="https://www.khanacademy.org/computing/computers-and-internet" target="_blank">Khan Academy
+          <br>Computers and the Internet</a>
+      </div>
+      <div class="card">
+        <a href="https://github.com/FaculdadeDescomplica" target="_blank">Git da faculdade <br> escolha o repositório
+          que precisa</a>
+      </div>
+      <div class="card">
+        <a href="/ads25/files/AquecimentoCalourada.rar" target="_blank">Resumo das duas primeiras lives <br>
+          "Aquecimento Calourada" <br>feito por</a> <a href="https://www.linkedin.com/in/victormenezes7"
+          target="_blank">Victor Menezes</a>
+      </div>
+      <div class="card">
+        <a href="https://no.descomplica.com.br/central_de_felicidade_gradua">Abertura de tickets Descomplica</a>
+      </div>
+      <div class="card">
+        <a href="#">Livros - Em breve!</a>
+      </div>
+    </div>
+  </section>
+  <div class="top">
+    <button id="back-to-top" onclick="scrollToTop()">
+      <i class="ph ph-arrow-circle-up"></i>
+    </button>
+  </div>
+  <script>
+    console.log("Já codou seu Hello World hoje?")
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+
 </html>
