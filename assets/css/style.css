@@ -1,19 +1,19 @@
 :root {
-  --descomplica-color: #00e88f;
-  --background-color: #252525;
-  --off-white: #eeeeee;
+  --green-color: #4CAF50;
+  --background-color: #000000;
+  --white: #ffffff;
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: var(--off-white);
+  background-color: var(--white);
 }
 
 header {
   background-color: var(--background-color);
-  color: var(--off-white);
+  color: var(--white);
   padding: 1rem;
   text-align: center;
   height: 100px;
@@ -45,14 +45,14 @@ section#links {
 }
 
 section#links h1 {
-  color: var(--off-white);
+  color: var(--white);
   text-align: center;
   margin-bottom: 2rem;
   text-decoration: none;
 }
 
 section#links a {
-  color: var(--descomplica-color);
+  color: var(--green-color);
   text-decoration: none;
   font-weight: bold;
 }
@@ -66,7 +66,7 @@ section#links a {
 }
 
 .card {
-  background-color: #505050;
+  background-color: #ffffff;
   border: 1px solid #166d00;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -83,7 +83,7 @@ section#links a {
 .card:hover {
   transform: scale(1.02);
   background-color: var(--background-color);
-  color: var(--off-white);
+  color: var(--white);
 }
 
 .card a {
