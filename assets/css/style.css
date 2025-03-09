@@ -150,6 +150,7 @@ section#links::before {
   background: url("../img/pc.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #links .title {
@@ -328,6 +329,6 @@ section#links a {
   }
 
   section#links {
-    margin: 1rem;
+    margin: 1rem;    
   }
 }
