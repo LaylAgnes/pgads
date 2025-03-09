@@ -64,6 +64,7 @@ body {
     rgb(155, 154, 154) 100%
   );
   color: #fafafa;
+
   margin: 0;
 }
 
@@ -90,7 +91,7 @@ body {
   left: 0;
   opacity: 0.9;
   z-index: -1;
-  border-radius: 2rem;
+  border-radius: .5rem;
   filter: blur(5px);
 }
 
@@ -115,6 +116,7 @@ body {
   border-radius: 0.5rem;
   background-color: #fafafa;
   transition: all 0.4s;
+  font-weight: bold;
 }
 
 .home-container .btn:hover {
@@ -330,5 +332,9 @@ section#links a {
 
   section#links {
     margin: 1rem;    
+  }
+
+  section#links::before {
+    background-position: right;
   }
 }
